@@ -8,6 +8,7 @@ import Image from 'next/image';
 const main = () => {
   return (
     <div id='home' className='w-full h-screen text-center'>
+  
       <div className='max-w-[1240px] w-full h-full flex justify-center p-2 items-center mx-auto'>
         <div className='mt-6' >
           <div className=' flex flex-col justify-center items-center pt-8 pb-4'>
@@ -21,12 +22,12 @@ const main = () => {
            <Link href='https://www.linkedin.com/in/aditya-yadav-348052289/' className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300' target='_blank'>
             <FaLinkedin/>
            </Link>
-           <Link href='https://github.com/whysoadi' className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300' target='_blank'>
+           <Link href='https://github.com/aditya2049' className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300' target='_blank'>
             <FaGithub/>
            </Link>
            <Link href='https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRzBxqGCMSmgwBScTLzJVGnJtFzQNBFjZNpPpgPXkZRcBTJHvFNFZDDWnRVjmdzZgKmKtFDx' className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300' target='_blank'>
            <AiOutlineMail/>
-           </Link>
+           </Link>  
            <Link href="https://drive.google.com/file/d/1ZPJpCtf5LDED_lpUAwZnmfUb8oREvQi0/view?usp=drive_link" download className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300' target='_blank'>
            <BsFillPersonLinesFill/>
            </Link>

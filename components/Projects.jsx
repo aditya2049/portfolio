@@ -14,7 +14,7 @@ const Projects = () => {
         <p className="uppercase tracking-widest text-xl text-[#5651e5]">
           Projects
         </p>
-        <h2 className="py-4">What I Have Built</h2>
+        <h2 className="py-4">What I have built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem title="Crypto coin" backgroundImg={cryptocoin}  tech={"React.js"} Url="https://ubiquitous-cuchufli-d45539.netlify.app/" />
           <ProjectItem title="Netflix2.0" backgroundImg={netflix} tech={"React.js"} Url="https://netflix20-98131.firebaseapp.com/" />
